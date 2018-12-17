@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f8fafc;
+}
+.navbar-brand {
+  font-size: 24px;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.content-title small {
+  font-size: 12px;
+  color: #999;
+}
+
+.follow {
+  margin-top: 25px;
+}
+
+.content-main {
+  margin-top: 10px;
+  width: 100%;
+  height: 560px;
+}
+.content-more {
+  margin-top : 20px;
+}
+.report .flex-column {
+  margin-left: 10px;
+  height: 362px;
+}
+
+.content-more [class*="col-"] {
+    padding: 0 !important;
+}
+
+.feature, .info, .device {
+  margin-bottom: 10px;
+  height: 100px;
+  padding: 8px;
+}
+.section-header {
+    border-bottom: 4px #f5f8ff solid;
+    font-size: 16px;
+    font-weight: 400;
+}
+.miaoshu-ul {
+    list-style: none;
+}
+.location-box .location-type{
+      color: #999;
+}
+.location-box {
+  height: auto;
+}
+.info {
+  height: auto;
+}
+.miaoshu-ul .s1 {
+    color: #999;
+    width: 70px;
+    font-size: 14px;
+    float: left;
+}
+.miaoshu-ul .s2 {
+    color: #333;
+}
+.miaoshu-ul .w-50 {
+  margin: 10px;
+}
+.tag-group {
+  margin-top: 10px;
+  margin-left:20px;
+}
+.tag-group .tag {
+  margin: 20px;
+}
+.report-form {
+  margin-left: 10px;
+}
+.report-form form {
+  margin-top: 15px;
+}
+.carousel img{
+  width: 100%;
+  height: auto;
+}
+.carousel-inner {
+  margin-top: 10px;
+}
+.price-box {
+    font-size: 12px;
+}
+.price-box .monthly-price{
+    color: #f90;
+    font-size: 42px;
+}
+.view-count {
+    margin-top: 10px;
+}
+.simple-items .simple-item .item-value {
+    font-weight: 700;
+    color: #666;
+    font-size: 18px;
+}
+.simple-items .simple-item .item-title {
+    color: #999;
+    font-size: 14px;
+}
+
+.line {
+  border-bottom: solid 1px #f5f6fb;
+    margin: 10px 0;
+}
+.location-box .location-type {
+    color: #999;
+}
+.location-ul {
+    list-style: none;
+}
+.location-ul .s1 {
+    color: #999;
+    width: 70px;
+    font-size: 14px;
+    float: left;
+}
+.location-ul .s2 {
+    color: #333;
+    font-size: 14px;
+}
+.location-ul .w-50 {
+  margin: 10px;
+}
