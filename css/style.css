@@ -1,3 +1,20 @@
+@media (min-width: 768px) {
+    .report .flex-column {
+        margin-left: 10px;
+    }
+}
+/**
+ * 手机
+ */
+@media (max-width: 768px) {
+    .detail-pic {
+        padding: 0px;
+    }
+    .report-form form {
+        margin-top: 15px;
+    }
+}
+
 body {
     margin: 0;
     font-family: "Nunito", sans-serif;
@@ -8,43 +25,37 @@ body {
     background-color: #f8fafc;
 }
 .navbar-brand {
-  font-size: 24px;
+    font-size: 24px;
 }
-
 .bg-white {
     background-color: #fff !important;
 }
-
 .content-title small {
-  font-size: 12px;
-  color: #999;
+    font-size: 12px;
+    color: #999;
 }
-
 .follow {
-  margin-top: 25px;
+    margin-top: 25px;
 }
-
 .content-main {
-  margin-top: 10px;
-  width: 100%;
-  height: 560px;
+    margin-top: 10px;
+    width: 100%;
+    height: 560px;
 }
 .content-more {
-  margin-top : 20px;
+    margin-top: 20px;
 }
 .report .flex-column {
-  margin-left: 10px;
-  height: 362px;
+    height: 362px;
 }
-
 .content-more [class*="col-"] {
     padding: 0 !important;
 }
 
 .feature, .info, .device {
-  margin-bottom: 10px;
-  height: 100px;
-  padding: 8px;
+    margin-bottom: 10px;
+    height: 100px;
+    padding: 8px;
 }
 .section-header {
     border-bottom: 4px #f5f8ff solid;
@@ -54,14 +65,14 @@ body {
 .miaoshu-ul {
     list-style: none;
 }
-.location-box .location-type{
-      color: #999;
+.location-box .location-type {
+    color: #999;
 }
 .location-box {
-  height: auto;
+    height: auto;
 }
 .info {
-  height: auto;
+    height: auto;
 }
 .miaoshu-ul .s1 {
     color: #999;
@@ -73,32 +84,33 @@ body {
     color: #333;
 }
 .miaoshu-ul .w-50 {
-  margin: 10px;
+    margin: 10px;
 }
 .tag-group {
-  margin-top: 10px;
-  margin-left:20px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 .tag-group .tag {
-  margin: 20px;
+    margin: 20px;
 }
 .report-form {
-  margin-left: 10px;
+    margin-left: 10px;
 }
-.report-form form {
-  margin-top: 15px;
+.report .flex-column {
+    height: 362px;
 }
-.carousel img{
-  width: 100%;
-  height: auto;
+.carousel img {
+    width: 100%;
+    height: auto;
 }
 .carousel-inner {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 .price-box {
     font-size: 12px;
+    height: auto;
 }
-.price-box .monthly-price{
+.price-box .monthly-price {
     color: #f90;
     font-size: 42px;
 }
@@ -114,9 +126,8 @@ body {
     color: #999;
     font-size: 14px;
 }
-
 .line {
-  border-bottom: solid 1px #f5f6fb;
+    border-bottom: solid 1px #f5f6fb;
     margin: 10px 0;
 }
 .location-box .location-type {
@@ -136,5 +147,12 @@ body {
     font-size: 14px;
 }
 .location-ul .w-50 {
-  margin: 10px;
+    margin: 10px;
 }
+.form-horizontal .form-group {
+    width: 100%;
+}
+.report-select {
+    margin-top: 10px;
+}
+
